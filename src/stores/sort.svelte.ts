@@ -1,3 +1,3 @@
 export const sort = $state({
-    ascending: true
+  ascending: true,
 });

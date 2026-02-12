@@ -14,3 +14,32 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@layer components {
+  .pheader {
+    font-size: var(--text-lg);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: 0.5rem;
+  }
+
+  .pbody {
+    font-size: var(--text-md);
+  }
+}
+
+@utility pcard {
+  @apply card;
+  @apply card-md;
+  @apply bg-base-100;
+  @apply shadow-sm;
+}
+
+@utility pcard-content {
+  @apply card-body;
+}
+
+@utility pcard-body {
+  @apply flex;
+  @apply flex-col;
+  @apply gap-4;
+}

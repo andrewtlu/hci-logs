@@ -1,5 +1,13 @@
 <script>
   import ControlGroup from "./components/ControlGroup.svelte";
+  import P1 from "./components/P1.svelte";
+  import P2 from "./components/P2.svelte";
+  import { sort } from "./stores/sort.svelte";
+
+  let posts = $derived.by(() => {
+    let p = [P1, P2];
+    return sort.ascending ? [...p].reverse() : p;
+  });
 </script>
 
 <svelte:head>
@@ -22,6 +30,9 @@
     </div>
 
     <!-- p1, p2, ... -->
+    {#each posts as Post}
+      <Post />
+    {/each}
   </div>
 
   <!-- footer -->
