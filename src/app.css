@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: black;
+  background-color: whitesmoke;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components {
+  .pheader {
+    font-size: var(--text-lg);
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: 0.5rem;
+  }
+
+  .pbody {
+    font-size: var(--text-md);
+  }
+}
+
+@utility pcard {
+  @apply card;
+  @apply card-md;
+  @apply bg-base-100;
+  @apply shadow-sm;
+}
+
+@utility pcard-content {
+  @apply card-body;
+}
+
+@utility pcard-body {
+  @apply flex;
+  @apply flex-col;
+  @apply gap-4;
+}
