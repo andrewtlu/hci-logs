@@ -23,14 +23,14 @@
   <div class="w-187.5 bg-transparent flex justify-center gap-8 flex-col">
     <!-- title -->
     <div class="flex flex-col gap-2">
-      <h1 class="text-4xl font-bold pb-1">🍰 NutriCare</h1>
+      <h1 class="text-4xl font-bold pb-1 mt-15">🍰 NutriCare</h1>
       <h2>Sumon Kanti Dey, Andrew Lu, & Julian Lucio Paredes</h2>
       <div class="divider"></div>
       <ControlGroup />
     </div>
 
     <!-- p1, p2, ... -->
-    {#each posts as Post}
+    {#each posts as Post, idx (idx)}
       <Post />
     {/each}
   </div>
