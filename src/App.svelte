@@ -1,5 +1,6 @@
 <script>
   import ControlGroup from "./components/ControlGroup.svelte";
+  import Info from "./components/Info.svelte";
   import P1 from "./components/P1.svelte";
   import P2 from "./components/P2.svelte";
   import { sort } from "./stores/sort.svelte";
@@ -24,7 +25,8 @@
     <!-- title -->
     <div class="flex flex-col gap-2">
       <h1 class="text-4xl font-bold pb-1 mt-15">🍰 NutriCare</h1>
-      <h2>Sumon Kanti Dey, Andrew Lu, & Julian Lucio Paredes</h2>
+      <div class="divider"></div>
+      <Info />
       <div class="divider"></div>
       <ControlGroup />
     </div>
