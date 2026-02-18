@@ -5,10 +5,7 @@
   import P2 from "./components/P2.svelte";
   import { sort } from "./stores/sort.svelte";
 
-  let posts = $derived.by(() => {
-    let p = [P1, P2];
-    return sort.ascending ? [...p].reverse() : p;
-  });
+  let posts = [P1, P2];
 </script>
 
 <svelte:head>
@@ -32,9 +29,15 @@
     </div>
 
     <!-- p1, p2, ... -->
-    {#each posts as Post, idx (idx)}
-      <Post />
-    {/each}
+    <div
+      class="flex gap-8"
+      class:flex-col-reverse={sort.ascending}
+      class:flex-col={!sort.ascending}
+    >
+      {#each posts as Post, idx (idx)}
+        <Post />
+      {/each}
+    </div>
   </div>
 
   <!-- footer -->
