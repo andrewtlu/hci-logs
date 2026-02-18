@@ -1,9 +1,10 @@
 <!-- @component
 P1 component
  -->
-<div class="pcard">
-  <div class="pcard-content">
-    <h1 class="pheader">P1 - Pitch Video/Problem Space</h1>
+<div class="pcard collapse collapse-arrow">
+  <input type="checkbox" name="P1" id="P1" checked />
+  <h1 class="pcard-header collapse-title">P1 - Pitch Video/Problem Space</h1>
+  <div class="pcard-content collapse-content">
     <div class="pcard-body">
       <p class="pbody">
         From our initial interviews, one potential demographic was people with

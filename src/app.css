@@ -16,10 +16,11 @@
 }
 
 @layer components {
-  .pheader {
-    font-size: var(--text-lg);
+  .pheading {
+    font-size: var(--text-md);
     font-weight: var(--font-weight-semibold);
-    margin-bottom: 0.5rem;
+    margin-top: 1.25em;
+    border-bottom: 2px solid lightgray;
   }
 
   .pbody {
@@ -28,18 +29,31 @@
 }
 
 @utility pcard {
-  @apply card;
-  @apply card-md;
   @apply bg-base-100;
   @apply shadow-sm;
 }
 
+@utility pcard-header {
+  @apply text-xl;
+  @apply font-bold;
+}
+
 @utility pcard-content {
-  @apply card-body;
+  @apply text-base;
 }
 
 @utility pcard-body {
   @apply flex;
   @apply flex-col;
   @apply gap-4;
+}
+
+@utility plist {
+  @apply list-disc;
+  @apply pl-8;
+}
+
+@utility plist-2 {
+  @apply list-[circle];
+  @apply pl-8;
 }
