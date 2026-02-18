@@ -7,7 +7,10 @@ P2 component
  -->
 <div class="pcard collapse collapse-arrow">
   <input type="checkbox" name="P2" id="P2" checked />
-  <div class="pcard-header collapse-title">P2 - User Research</div>
+  <div class="collapse-title flex justify-between items-center">
+    <h1 class="pcard-header">P2 - User Research</h1>
+    <h2 class="pcard-date">2/18/26</h2>
+  </div>
   <div class="pcard-content collapse-content">
     <div class="pcard-body">
       <p class="pheading">Areas of Interest</p>

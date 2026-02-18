@@ -3,7 +3,10 @@ P1 component
  -->
 <div class="pcard collapse collapse-arrow">
   <input type="checkbox" name="P1" id="P1" checked />
-  <h1 class="pcard-header collapse-title">P1 - Pitch Video/Problem Space</h1>
+  <div class="collapse-title flex justify-between items-center">
+    <h1 class="pcard-header">P1 - Pitch Video/Problem Space</h1>
+    <h2 class="pcard-date">2/9/26</h2>
+  </div>
   <div class="pcard-content collapse-content">
     <div class="pcard-body">
       <p class="pbody">

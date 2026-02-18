@@ -38,6 +38,11 @@
   @apply font-bold;
 }
 
+@utility pcard-date {
+  @apply text-sm;
+  @apply text-gray-500;
+}
+
 @utility pcard-content {
   @apply text-base;
 }
