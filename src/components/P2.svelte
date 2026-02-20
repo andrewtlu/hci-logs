@@ -106,230 +106,235 @@ P2 component
       </ul>
 
       <p class="pheading">Interviewee Descriptions</p>
-      <table class="table">
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Status</th>
-            <th>Dietary Restriction</th>
-            <th>Location</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>P1</th>
-            <td>Sofia</td>
-            <td>Freshman</td>
-            <td>Gluten + Dairy (Voluntary)</td>
-            <td>Emory Campus</td>
-          </tr>
-          <tr>
-            <th>P2</th>
-            <td>Lucia</td>
-            <td>Sophomore</td>
-            <td>Celiac</td>
-            <td>Emory Campus</td>
-          </tr>
-          <tr>
-            <th>P3</th>
-            <td>Stefano</td>
-            <td>Upperclassman</td>
-            <td>Type 1 Diabetes</td>
-            <td>Emory Campus</td>
-          </tr>
-          <tr>
-            <th>P4</th>
-            <td>Owen</td>
-            <td>Upperclassman</td>
-            <td>Type 1 Diabetes</td>
-            <td>Emory Campus</td>
-          </tr>
-          <tr>
-            <th>P5</th>
-            <td>Mary</td>
-            <td>Professional</td>
-            <td>Type 1 Diabetes</td>
-            <td>External</td>
-          </tr>
-          <tr>
-            <th>P6</th>
-            <td>Jayde</td>
-            <td>Professional</td>
-            <td>Type 1 Diabetes</td>
-            <td>External</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="overflow-x-auto">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Status</th>
+              <th>Dietary Restriction</th>
+              <th>Location</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>P1</th>
+              <td>Sofia</td>
+              <td>Freshman</td>
+              <td>Gluten + Dairy (Voluntary)</td>
+              <td>Emory Campus</td>
+            </tr>
+            <tr>
+              <th>P2</th>
+              <td>Lucia</td>
+              <td>Sophomore</td>
+              <td>Celiac</td>
+              <td>Emory Campus</td>
+            </tr>
+            <tr>
+              <th>P3</th>
+              <td>Stefano</td>
+              <td>Upperclassman</td>
+              <td>Type 1 Diabetes</td>
+              <td>Emory Campus</td>
+            </tr>
+            <tr>
+              <th>P4</th>
+              <td>Owen</td>
+              <td>Upperclassman</td>
+              <td>Type 1 Diabetes</td>
+              <td>Emory Campus</td>
+            </tr>
+            <tr>
+              <th>P5</th>
+              <td>Mary</td>
+              <td>Professional</td>
+              <td>Type 1 Diabetes</td>
+              <td>External</td>
+            </tr>
+            <tr>
+              <th>P6</th>
+              <td>Jayde</td>
+              <td>Professional</td>
+              <td>Type 1 Diabetes</td>
+              <td>External</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
       <p class="pheading">Interview Empathy Map</p>
       <img src={summary} alt="Summary Empathy Map" />
 
       <p class="pheading">Interview Inferences</p>
-      <table class="table">
-        <thead>
-          <tr>
-            <th>Tensions</th>
-            <th>Surprises</th>
-            <th>Contradictions</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="align-top">
-              <p class="font-bold">General:</p>
-              <ul class="plist">
-                <li>
-                  Users often complain of lack of options, and mention existing
-                  apps, but don't use them
-                </li>
-                <li>
-                  Apps are designed for a minority but rely on a lot of people
-                  to work properly
-                </li>
-                <li>
-                  Preferring to rely on their own knowledge and on corrective
-                  measures rather than preventative ones
-                </li>
-                <li>
-                  Users don't want to be “separated” from the rest of the
-                  people, but at the same time need special things to help them
-                </li>
-                <li>
-                  People with strict dietary restrictions feel very identified
-                  with others that share the condition but there is no way of
-                  connecting
-                </li>
-                <li>
-                  Technology makes diabetes manageable, yet constant vigilance
-                  is still required.
-                </li>
-                <li>
-                  Users value social inclusion, yet sometimes cannot participate
-                  fully.
-                </li>
-                <li>
-                  Users do not see diabetes as restrictive, yet every meal
-                  requires calculation.
-                </li>
-                <li>
-                  User values balance, yet long-term complications remain a
-                  constant background concern.
-                </li>
-              </ul>
-            </td>
-            <td class="align-top">
-              <p class="font-bold">General:</p>
-              <ul class="plist">
-                <li>
-                  Dependence on tech vs independence. Diabetics rely heavily
-                  while the others almost reject it
-                </li>
-                <li>
-                  Some of the interviewees hide it from most people others are
-                  lacking options to report it more freely
-                </li>
-                <li>
-                  Users are very worried and have serious consequences and then
-                  attribute anything to their condition, or they can't really
-                  identify when something is caused by their diet or something
-                  else.
-                </li>
-                <li>
-                  Preferring to rely on their own knowledge and on corrective
-                  measures rather than preventative ones. It feels reassuring to
-                  be able to rely on themselves rather than depending on an
-                  external app
-                </li>
-                <li>
-                  University tries to be accessible in food options but ignores
-                  important time constraints that people suffer. There is no way
-                  to see the availability of places in real time
-                </li>
-                <li>
-                  Even as a highly educated professional, restaurant carb
-                  estimation remains difficult.
-                </li>
-                <li>
-                  Insulin ratios change throughout the day, meaning management
-                  is dynamic, not fixed.
-                </li>
-                <li>
-                  After 26 years, spontaneity is still the biggest challenge.
-                </li>
-                <li>
-                  Informal food settings (potlucks, parties) are more
-                  problematic than restaurants.
-                </li>
-                <li>
-                  User main request is universal food transparency, not
-                  accommodation.
-                </li>
-              </ul>
-            </td>
-            <td class="align-top">
-              <p class="font-bold">Stefano:</p>
-              <ul class="plist">
-                <li>
-                  Downplays impact on daily life but also is hyperdependent on
-                  phone, maybe due to his tendency of “hiding” the condition
-                </li>
-              </ul>
-              <p class="font-bold">Sofia:</p>
-              <ul class="plist">
-                <li>
-                  Knows she could provide feedback via QR code at DCT but has
-                  never given feedback to Emory Dining
-                </li>
-              </ul>
-              <p class="font-bold">Lucia:</p>
-              <ul class="plist">
-                <li>
-                  Thinks Emory takes allergies seriously but has suffered from
-                  mislabeling and feels stressed about eating the wrong thing
-                </li>
-              </ul>
-              <p class="font-bold">Owen:</p>
-              <ul class="plist">
-                <li>
-                  Says he can eat anything but also requires anticipation and
-                  tracking carbs
-                </li>
-              </ul>
-              <p class="font-bold">Mary:</p>
-              <ul class="plist">
-                <li>
-                  Says restrictions are “not super strict,” yet every meal
-                  requires calculation and timing.
-                </li>
-                <li>
-                  Technology reduces restriction, but dependence on devices is
-                  total.
-                </li>
-                <li>
-                  Frames management as balanced moderation, yet long-term
-                  complications remain a serious concern.
-                </li>
-              </ul>
-              <p class="font-bold">Jayde:</p>
-              <ul class="plist">
-                <li>
-                  States food variety is adequate, yet prefers cooking at home
-                  for control.
-                </li>
-                <li>
-                  Frames diabetes as a healthy lifestyle, yet acknowledges
-                  severe long-term risks.
-                </li>
-                <li>
-                  Says it's not restrictive, but must carefully plan insulin
-                  timing and dosage.
-                </li>
-              </ul>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="overflow-x-auto">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Tensions</th>
+              <th>Surprises</th>
+              <th>Contradictions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="align-top">
+                <p class="font-bold">General:</p>
+                <ul class="plist">
+                  <li>
+                    Users often complain of lack of options, and mention
+                    existing apps, but don't use them
+                  </li>
+                  <li>
+                    Apps are designed for a minority but rely on a lot of people
+                    to work properly
+                  </li>
+                  <li>
+                    Preferring to rely on their own knowledge and on corrective
+                    measures rather than preventative ones
+                  </li>
+                  <li>
+                    Users don't want to be “separated” from the rest of the
+                    people, but at the same time need special things to help
+                    them
+                  </li>
+                  <li>
+                    People with strict dietary restrictions feel very identified
+                    with others that share the condition but there is no way of
+                    connecting
+                  </li>
+                  <li>
+                    Technology makes diabetes manageable, yet constant vigilance
+                    is still required.
+                  </li>
+                  <li>
+                    Users value social inclusion, yet sometimes cannot
+                    participate fully.
+                  </li>
+                  <li>
+                    Users do not see diabetes as restrictive, yet every meal
+                    requires calculation.
+                  </li>
+                  <li>
+                    User values balance, yet long-term complications remain a
+                    constant background concern.
+                  </li>
+                </ul>
+              </td>
+              <td class="align-top">
+                <p class="font-bold">General:</p>
+                <ul class="plist">
+                  <li>
+                    Dependence on tech vs independence. Diabetics rely heavily
+                    while the others almost reject it
+                  </li>
+                  <li>
+                    Some of the interviewees hide it from most people others are
+                    lacking options to report it more freely
+                  </li>
+                  <li>
+                    Users are very worried and have serious consequences and
+                    then attribute anything to their condition, or they can't
+                    really identify when something is caused by their diet or
+                    something else.
+                  </li>
+                  <li>
+                    Preferring to rely on their own knowledge and on corrective
+                    measures rather than preventative ones. It feels reassuring
+                    to be able to rely on themselves rather than depending on an
+                    external app
+                  </li>
+                  <li>
+                    University tries to be accessible in food options but
+                    ignores important time constraints that people suffer. There
+                    is no way to see the availability of places in real time
+                  </li>
+                  <li>
+                    Even as a highly educated professional, restaurant carb
+                    estimation remains difficult.
+                  </li>
+                  <li>
+                    Insulin ratios change throughout the day, meaning management
+                    is dynamic, not fixed.
+                  </li>
+                  <li>
+                    After 26 years, spontaneity is still the biggest challenge.
+                  </li>
+                  <li>
+                    Informal food settings (potlucks, parties) are more
+                    problematic than restaurants.
+                  </li>
+                  <li>
+                    User main request is universal food transparency, not
+                    accommodation.
+                  </li>
+                </ul>
+              </td>
+              <td class="align-top">
+                <p class="font-bold">Stefano:</p>
+                <ul class="plist">
+                  <li>
+                    Downplays impact on daily life but also is hyperdependent on
+                    phone, maybe due to his tendency of “hiding” the condition
+                  </li>
+                </ul>
+                <p class="font-bold">Sofia:</p>
+                <ul class="plist">
+                  <li>
+                    Knows she could provide feedback via QR code at DCT but has
+                    never given feedback to Emory Dining
+                  </li>
+                </ul>
+                <p class="font-bold">Lucia:</p>
+                <ul class="plist">
+                  <li>
+                    Thinks Emory takes allergies seriously but has suffered from
+                    mislabeling and feels stressed about eating the wrong thing
+                  </li>
+                </ul>
+                <p class="font-bold">Owen:</p>
+                <ul class="plist">
+                  <li>
+                    Says he can eat anything but also requires anticipation and
+                    tracking carbs
+                  </li>
+                </ul>
+                <p class="font-bold">Mary:</p>
+                <ul class="plist">
+                  <li>
+                    Says restrictions are “not super strict,” yet every meal
+                    requires calculation and timing.
+                  </li>
+                  <li>
+                    Technology reduces restriction, but dependence on devices is
+                    total.
+                  </li>
+                  <li>
+                    Frames management as balanced moderation, yet long-term
+                    complications remain a serious concern.
+                  </li>
+                </ul>
+                <p class="font-bold">Jayde:</p>
+                <ul class="plist">
+                  <li>
+                    States food variety is adequate, yet prefers cooking at home
+                    for control.
+                  </li>
+                  <li>
+                    Frames diabetes as a healthy lifestyle, yet acknowledges
+                    severe long-term risks.
+                  </li>
+                  <li>
+                    Says it's not restrictive, but must carefully plan insulin
+                    timing and dosage.
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
       <p class="pheading">POV Statements</p>
       <ul class="plist">

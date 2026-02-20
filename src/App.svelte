@@ -18,7 +18,9 @@
   <!-- "nav" -->
   <header></header>
 
-  <div class="w-187.5 bg-transparent flex justify-center gap-8 flex-col">
+  <div
+    class="px-4 w-full md:w-187.5 bg-transparent flex justify-center gap-8 flex-col"
+  >
     <!-- title -->
     <div class="flex flex-col gap-2">
       <h1 class="text-4xl font-bold pb-1 mt-15">🍰 NutriCare</h1>
