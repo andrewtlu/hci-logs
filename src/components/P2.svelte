@@ -1,5 +1,5 @@
 <script>
-  import summary from "/p2-summary.jpg";
+  import summary from "/p2/summary.jpg";
 </script>
 
 <!-- @component

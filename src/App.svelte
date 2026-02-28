@@ -3,9 +3,10 @@
   import Info from "./components/Info.svelte";
   import P1 from "./components/P1.svelte";
   import P2 from "./components/P2.svelte";
+  import P3 from "./components/P3.svelte";
   import { sort } from "./stores/sort.svelte";
 
-  let posts = [P1, P2];
+  let posts = [P1, P2, P3];
 </script>
 
 <svelte:head>
@@ -23,7 +24,7 @@
   >
     <!-- title -->
     <div class="flex flex-col gap-2">
-      <h1 class="text-4xl font-bold pb-1 mt-15">🍰 NutriCare</h1>
+      <h1 class="text-4xl font-bold pb-1 mt-15">🍰 GrubAble</h1>
       <div class="divider"></div>
       <Info />
       <div class="divider"></div>
