@@ -4,9 +4,10 @@
   import P1 from "./components/P1.svelte";
   import P2 from "./components/P2.svelte";
   import P3 from "./components/P3.svelte";
+  import P4 from "./components/P4.svelte";
   import { sort } from "./stores/sort.svelte";
 
-  let posts = [P1, P2, P3];
+  let posts = [P1, P2, P3, P4];
 </script>
 
 <svelte:head>
